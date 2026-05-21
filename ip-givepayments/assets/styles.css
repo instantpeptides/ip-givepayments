@@ -1,0 +1,137 @@
+/* Custom CSS for GivePayments Plugin */
+.general-info {
+    display: none;
+}
+
+.general-info-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    /* Adjust spacing */
+}
+
+.general-info-wrapper p {
+    margin: 0;
+}
+
+.general-info-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 395px
+}
+
+.general-info-wrapper .general-info-title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 225px;
+    white-space: nowrap;
+}
+
+.general-info-wrapper .general-info-description {
+    color: #50575E;
+    font-size: 12px;
+}
+
+
+.general-info .description a {
+    color: #aa4a00 !important;
+    text-decoration: none !important;
+}
+
+
+.connection-test-button {
+    border: 1px solid #2271b1;
+    border-radius: 3px;
+    background-color: transparent;
+    /* Bright blue, consistent with the mockup */
+    color: #1a73e8;
+    padding: 1px 11px !important;
+    cursor: pointer;
+    font-size: 13px;
+    /* Adjusted for a smaller, cleaner appearance */
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    min-height: 30px;
+    max-width: 300px;
+    /* Limit the maximum width for a more compact size */
+    width: fit-content !important;
+}
+
+.connection-test-button:hover {
+    background-color: #d4d4d4;
+    /* Darker blue on hover */
+}
+
+.connection-test-button:disabled {
+    background-color: #005cbf;
+    /* Gray color when disabled */
+    cursor: not-allowed;
+}
+
+.connection-test-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.connection-test-description-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #50575E;
+}
+
+.connection-limit-row-container {
+    display: none;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.connection-limit-row-container p {
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.connection-span-success {
+    color: #00A32A;
+}
+
+.connection-span-declined {
+    color: #D63638;
+}
+
+.processing-span-success {
+    color: #00A32A;
+}
+
+.processing-span-declined {
+    color: #D63638;
+}
+.transfer-span-success {
+    color: #00A32A;
+}
+
+.transfer-span-declined {
+    color: #D63638;
+}
+
+#able-to-process-text,
+#able-to-transfer-text {
+    display: none;
+}
+
+.connection-test-description-container a {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 782px) {
+    .general-info-wrapper {
+        flex-direction: column;
+    }
+
+    .general-info-description-container {
+        max-width: 100%
+    }
+}

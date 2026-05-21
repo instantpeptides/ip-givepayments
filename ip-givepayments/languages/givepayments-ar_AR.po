@@ -1,0 +1,189 @@
+# Copyright (C) 2025 GivePayments
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: GivePayments Gateway for WooCommerce 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"givepayments\n"
+"POT-Creation-Date: 2025-03-04T15:17:31+00:00\n"
+"PO-Revision-Date: 2025-03-05 13:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: givepayments\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-givepayments.php
+msgid "GivePayments Gateway for WooCommerce"
+msgstr " بوابة الدفع GivePayments لـ WooCommerce"
+
+#. Plugin URI of the plugin
+#: woocommerce-givepayments.php
+msgid "https://givepayments.com/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-givepayments.php
+msgid "A WooCommerce payment gateway plugin for GivePayments."
+msgstr "مكون إضافي لبوابة الدفع في WooCommerce لخدمة GivePayments."
+
+#. Author of the plugin
+#: woocommerce-givepayments.php includes/class-givepayments-gateway.php:14
+#: includes/class-givepayments-gateway.php:67
+msgid "GivePayments"
+msgstr "‫GivePayments"
+
+#. Author URI of the plugin
+#: woocommerce-givepayments.php
+msgid "https://givepayments.com"
+msgstr ""
+
+#: includes/class-givepayments-gateway.php:16
+msgid "Accept payments using GivePayments."
+msgstr "قبول المدفوعات باستخدام GivePayments."
+
+#: includes/class-givepayments-gateway.php:18
+msgid "Pay with Credit and Debit Cards"
+msgstr "ادفع ببطاقات الائتمان والخصم"
+
+#: includes/class-givepayments-gateway.php:20
+msgid "Pay securely via GivePayments"
+msgstr "ادفع بأمان عبر GivePayments"
+
+#: includes/class-givepayments-gateway.php:43
+msgid "General Info"
+msgstr "معلومات عامة"
+
+#: includes/class-givepayments-gateway.php:46
+msgid ""
+"Enable or disable GivePayments gateway, configure your activation keys,\n"
+"                                        and activate test mode to simulate "
+"transactions.\n"
+"                                        Need help? Check out our detailed "
+"documentation for guidance"
+msgstr ""
+"قم بتمكين أو تعطيل بوابة الدفع GivePayments، وقم بتكوين مفاتيح التفعيل "
+"الخاصة بك، وقم بتفعيل وضع الاختبار لمحاكاة المعاملات. هل تحتاج إلى مساعدة؟ "
+"راجع وثائقنا التفصيلية للحصول على الإرشادات"
+
+#: includes/class-givepayments-gateway.php:50
+msgid "View GivePayments Docs"
+msgstr "عرض مستندات GivePayments"
+
+#: includes/class-givepayments-gateway.php:58
+msgid "Enable/Disable"
+msgstr "تفعيل / تعطيل"
+
+#: includes/class-givepayments-gateway.php:60
+msgid "Enable GivePayments on Checkout"
+msgstr "تفعيل GivePayments عند الدفع"
+
+#: includes/class-givepayments-gateway.php:64
+msgid "Payment Title"
+msgstr "عنوان طريقة الدفع"
+
+#: includes/class-givepayments-gateway.php:66
+msgid "Payment method title shown at checkout."
+msgstr "عنوان طريقة الدفع الذي يظهر عند صفحة الدفع."
+
+#: includes/class-givepayments-gateway.php:71
+msgid "Payment Description"
+msgstr "وصف الدفع"
+
+#: includes/class-givepayments-gateway.php:73
+msgid "Payment method description shown at checkout."
+msgstr "وصف طريقة الدفع الذي يظهر عند صفحة الدفع."
+
+#: includes/class-givepayments-gateway.php:74
+msgid "Pay with credit and debit cards"
+msgstr "ادفع ببطاقات الائتمان والخصم"
+
+#: includes/class-givepayments-gateway.php:78
+msgid "Order Status"
+msgstr "حالة الطلب"
+
+#: includes/class-givepayments-gateway.php:81
+msgid "Completed"
+msgstr "مكتمل"
+
+#: includes/class-givepayments-gateway.php:82
+msgid "Processing"
+msgstr "قيد المعالجة"
+
+#: includes/class-givepayments-gateway.php:84
+msgid ""
+"Select order status for the WooCommerce order after the transaction is "
+"captured on GivePayments"
+msgstr "اختر حالة الطلب في WooCommerce بعد تسجيل المعاملة في GivePayments"
+
+#: includes/class-givepayments-gateway.php:86
+msgid ""
+"The payment title will be visible on the checkout page when the user selects "
+"the payment method."
+msgstr ""
+"سيكون عنوان الدفع مرئيًا في صفحة الدفع عندما يختار المستخدم طريقة الدفع."
+
+#: includes/class-givepayments-gateway.php:90
+msgid "Environment"
+msgstr "البيئة"
+
+#: includes/class-givepayments-gateway.php:93
+msgid "Sandbox (Testing)"
+msgstr "وضع الاختبار (Sandbox)"
+
+#: includes/class-givepayments-gateway.php:94
+msgid "Production"
+msgstr "الإنتاج"
+
+#: includes/class-givepayments-gateway.php:96
+msgid "Select environment for the payments"
+msgstr "اختر البيئة لعمليات الدفع"
+
+#: includes/class-givepayments-gateway.php:98
+msgid ""
+"Test Mode allows you to test transactions and purchases before switching to "
+"Production. Please ensure to use the correct API keys for your selected "
+"environment"
+msgstr ""
+"يتيح لك وضع الاختبار اختبار المعاملات والمشتريات قبل التبديل إلى وضع "
+"الإنتاج. يرجى التأكد من استخدام مفاتيح API الصحيحة للبيئة المحددة"
+
+#: includes/class-givepayments-gateway.php:102
+msgid "Production API Key"
+msgstr "مفتاح API للإنتاج"
+
+#: includes/class-givepayments-gateway.php:105
+msgid "Enter your API key for production use."
+msgstr "أدخل مفتاح API الخاص بك لاستخدامه في الإنتاج."
+
+#: includes/class-givepayments-gateway.php:110
+msgid "Merchant ID"
+msgstr "معرف التاجر"
+
+#: includes/class-givepayments-gateway.php:113
+msgid "Enter your Merchant ID"
+msgstr "أدخل معرف التاجر الخاص بك"
+
+#: includes/class-givepayments-gateway.php:118
+#: includes/class-givepayments-gateway.php:120
+msgid "Connection Test"
+msgstr "اختبار الاتصال"
+
+#: includes/class-givepayments-gateway.php:124
+msgid ""
+"Click this button to verify the connection. If successful, your site will be "
+"linked to GivePayments after entering the correct keys. The results below "
+"indicate the status of your connection, processing, and transfer "
+"capabilities."
+msgstr ""
+"انقر على هذا الزر للتحقق من الاتصال. إذا نجح، سيتم ربط موقعك بـ GivePayments "
+"بعد إدخال المفاتيح الصحيحة. تشير النتائج أدناه إلى حالة الاتصال والمعالجة "
+"وإمكانيات التحويل لديك."
+
+#: includes/class-givepayments-gateway.php:131
+msgid "GivePayment Merchant Portal"
+msgstr "بوابة التاجر GivePayments"

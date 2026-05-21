@@ -1,0 +1,195 @@
+# Copyright (C) 2025 GivePayments
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: GivePayments Gateway for WooCommerce 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"givepayments\n"
+"POT-Creation-Date: 2025-03-04T15:17:31+00:00\n"
+"PO-Revision-Date: 2025-03-04 16:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: givepayments\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-givepayments.php
+msgid "GivePayments Gateway for WooCommerce"
+msgstr "WooCommerce GivePayments-Zahlungsgateway"
+
+#. Plugin URI of the plugin
+#: woocommerce-givepayments.php
+msgid "https://givepayments.com/"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-givepayments.php
+msgid "A WooCommerce payment gateway plugin for GivePayments."
+msgstr "Ein WooCommerce-Zahlungsgateway-Plugin für GivePayments."
+
+#. Author of the plugin
+#: woocommerce-givepayments.php includes/class-givepayments-gateway.php:14
+#: includes/class-givepayments-gateway.php:67
+msgid "GivePayments"
+msgstr "GivePayments"
+
+#. Author URI of the plugin
+#: woocommerce-givepayments.php
+msgid "https://givepayments.com"
+msgstr ""
+
+#: includes/class-givepayments-gateway.php:16
+msgid "Accept payments using GivePayments."
+msgstr "Zahlungen mit GivePayments akzeptieren."
+
+#: includes/class-givepayments-gateway.php:18
+msgid "Pay with Credit and Debit Cards"
+msgstr "Mit Kredit- und Debitkarten bezahlen"
+
+#: includes/class-givepayments-gateway.php:20
+msgid "Pay securely via GivePayments"
+msgstr "Sicher über GivePayments bezahlen"
+
+#: includes/class-givepayments-gateway.php:43
+msgid "General Info"
+msgstr "Allgemeine Informationen"
+
+#: includes/class-givepayments-gateway.php:46
+msgid ""
+"Enable or disable GivePayments gateway, configure your activation keys,\n"
+"                                        and activate test mode to simulate "
+"transactions.\n"
+"                                        Need help? Check out our detailed "
+"documentation for guidance"
+msgstr ""
+"Aktivieren oder deaktivieren Sie das GivePayments-Gateway, konfigurieren Sie "
+"Ihre Aktivierungsschlüssel und aktivieren Sie den Testmodus, um "
+"Transaktionen zu simulieren. Hilfe benötigt? Schauen Sie sich unsere "
+"ausführliche Dokumentation für eine Anleitung an"
+
+#: includes/class-givepayments-gateway.php:50
+msgid "View GivePayments Docs"
+msgstr "GivePayments-Dokumentation anzeigen"
+
+#: includes/class-givepayments-gateway.php:58
+msgid "Enable/Disable"
+msgstr "Aktivieren/Deaktivieren"
+
+#: includes/class-givepayments-gateway.php:60
+msgid "Enable GivePayments on Checkout"
+msgstr "Aktivieren Sie GivePayments an der Kasse"
+
+#: includes/class-givepayments-gateway.php:64
+msgid "Payment Title"
+msgstr "Zahlungstitel"
+
+#: includes/class-givepayments-gateway.php:66
+msgid "Payment method title shown at checkout."
+msgstr "Titel der Zahlungsmethode, die an der Kasse angezeigt wird."
+
+#: includes/class-givepayments-gateway.php:71
+msgid "Payment Description"
+msgstr "Zahlungsbeschreibung"
+
+#: includes/class-givepayments-gateway.php:73
+msgid "Payment method description shown at checkout."
+msgstr "Beschreibung der Zahlungsmethode, die an der Kasse angezeigt wird."
+
+#: includes/class-givepayments-gateway.php:74
+msgid "Pay with credit and debit cards"
+msgstr "Mit Kredit- und Debitkarten bezahlen"
+
+#: includes/class-givepayments-gateway.php:78
+msgid "Order Status"
+msgstr "Bestellstatus"
+
+#: includes/class-givepayments-gateway.php:81
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/class-givepayments-gateway.php:82
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: includes/class-givepayments-gateway.php:84
+msgid ""
+"Select order status for the WooCommerce order after the transaction is "
+"captured on GivePayments"
+msgstr ""
+"Wählen Sie den Bestellstatus für die WooCommerce-Bestellung, nachdem die "
+"Transaktion auf GivePayments erfasst wurde"
+
+#: includes/class-givepayments-gateway.php:86
+msgid ""
+"The payment title will be visible on the checkout page when the user selects "
+"the payment method."
+msgstr ""
+"Der Zahlungstitel wird auf der Kasse-Seite sichtbar, wenn der Benutzer die "
+"Zahlungsmethode auswählt."
+
+#: includes/class-givepayments-gateway.php:90
+msgid "Environment"
+msgstr "Umgebung"
+
+#: includes/class-givepayments-gateway.php:93
+msgid "Sandbox (Testing)"
+msgstr "Sandbox (Testmodus)"
+
+#: includes/class-givepayments-gateway.php:94
+msgid "Production"
+msgstr "Produktion"
+
+#: includes/class-givepayments-gateway.php:96
+msgid "Select environment for the payments"
+msgstr "Wählen Sie die Umgebung für die Zahlungen"
+
+#: includes/class-givepayments-gateway.php:98
+msgid ""
+"Test Mode allows you to test transactions and purchases before switching to "
+"Production. Please ensure to use the correct API keys for your selected "
+"environment"
+msgstr ""
+"Der Testmodus ermöglicht es Ihnen, Transaktionen und Käufe zu testen, bevor "
+"Sie in die Produktion wechseln. Stellen Sie sicher, dass Sie die richtigen "
+"API-Schlüssel für die ausgewählte Umgebung verwenden"
+
+#: includes/class-givepayments-gateway.php:102
+msgid "Production API Key"
+msgstr "Produktions-API-Schlüssel"
+
+#: includes/class-givepayments-gateway.php:105
+msgid "Enter your API key for production use."
+msgstr "Geben Sie Ihren API-Schlüssel für die Produktion ein."
+
+#: includes/class-givepayments-gateway.php:110
+msgid "Merchant ID"
+msgstr "Händler-ID"
+
+#: includes/class-givepayments-gateway.php:113
+msgid "Enter your Merchant ID"
+msgstr "Geben Sie Ihre Händler-ID ein"
+
+#: includes/class-givepayments-gateway.php:118
+#: includes/class-givepayments-gateway.php:120
+msgid "Connection Test"
+msgstr "Verbindungstest"
+
+#: includes/class-givepayments-gateway.php:124
+msgid ""
+"Click this button to verify the connection. If successful, your site will be "
+"linked to GivePayments after entering the correct keys. The results below "
+"indicate the status of your connection, processing, and transfer "
+"capabilities."
+msgstr ""
+"Klicken Sie auf diese Schaltfläche, um die Verbindung zu überprüfen. Wenn "
+"die Verbindung erfolgreich ist, wird Ihre Seite nach Eingabe der richtigen "
+"Schlüssel mit GivePayments verbunden. Die Ergebnisse unten zeigen den Status "
+"Ihrer Verbindung, Verarbeitung und Übertragungsfähigkeiten an."
+
+#: includes/class-givepayments-gateway.php:131
+msgid "GivePayment Merchant Portal"
+msgstr "GivePayments-Händlerportal"

@@ -1,0 +1,87 @@
+.payment_method_givepayments .givepayments-card-ui {
+    margin-top: 12px;
+    width: 100%;
+    border: 1px solid #cfcfd4;
+    border-radius: 12px;
+    background: #F5F5F3;
+    overflow: hidden;
+}
+
+.payment_method_givepayments .givepayments-card-ui__body {
+    padding: 20px;
+}
+
+.payment_method_givepayments .givepayments-card-ui__description {
+    margin: 0 0 14px;
+    color: #4d4f57;
+}
+
+.payment_method_givepayments .givepayments-card-fields .form-row {
+    margin: 0 0 16px;
+}
+
+.payment_method_givepayments .givepayments-field label {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #202124;
+}
+
+.payment_method_givepayments .givepayments-field input {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 52px;
+    border-radius: 12px;
+    border: 1px solid #c4c4ca;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 0 16px;
+    color: #1f1f24;
+}
+
+.payment_method_givepayments .givepayments-field input:focus {
+    border-color: #56bfff;
+    box-shadow: 0 0 0 1px rgba(86, 191, 255, 0.15);
+    outline: none;
+}
+
+.payment_method_givepayments .givepayments-card-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+/* Error state style hooks (for future per-field validation classes). */
+.payment_method_givepayments .givepayments-field.givepayments-field-error label {
+    color: #cf1c2a;
+}
+
+.payment_method_givepayments .givepayments-field.givepayments-field-error input {
+    border-color: #cf1c2a;
+}
+
+@media (max-width: 768px) {
+    .payment_method_givepayments .givepayments-card-ui__body {
+        padding: 16px;
+    }
+
+    .payment_method_givepayments .givepayments-field label {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .payment_method_givepayments .givepayments-field input {
+        height: 50px;
+        border-radius: 14px;
+        font-size: 16px;
+        padding: 0 14px;
+    }
+
+    .payment_method_givepayments .givepayments-card-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
